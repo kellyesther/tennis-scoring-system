@@ -24,6 +24,11 @@ export class Match {
     return scores[point];
   }
 
+  /**
+   * Check for deuce
+   * If at least 3 points have been scored by each player, and the scores are equal, the score is "deuce".
+   */
+
   private deuce() {
     return (
       this.player1.points >= 3 && this.player2.points === this.player1.points
