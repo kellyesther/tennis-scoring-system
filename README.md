@@ -80,7 +80,7 @@ Happy coding
 Clone the repository
 
     git clone https://github.com/kec67/tennis-scoring-system.git
-    cd tennis-scoring
+    cd tennis-scoring-system
     
 Install packages
 
